@@ -1,0 +1,25 @@
+/* Missing semicolon */
+body {
+  background-color: #fff
+}
+
+/* Incorrect property name */
+font-color: red;
+
+/* Incorrect property value */
+h1 {
+  font-size: 2em;
+  color: blue;
+  line-height: 1.5em;
+  text-align: left; /* Correct, but redundant if default */
+}
+
+/* Invalid property */
+.invalid-property: {
+  display: block;
+}
+
+/* Missing closing bracket */
+p {
+  margin: 0;
+}
